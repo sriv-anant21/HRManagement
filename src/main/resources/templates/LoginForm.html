@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>HR LOGIN</title>
+<link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+    crossorigin="anonymous">
+<link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+ 
+
+
+header {
+    background-color: #DCDCDC;
+    /* order-top-style: solid;
+    border-bottom-style: solid; 
+    border-width: 2px;*/
+    height: 50px;
+    vertical-align:middle;
+    font-size:32px;
+    font-weight:600;
+    text-align:center;
+}
+.submit1{
+width:100px;
+}
+ 
+
+
+</style>        
+</head>
+<body>
+    <div class="container" >
+    
+        <div class="row" style="margin-top:100px;border: 2px solid  gray;" >
+            <div class="col-8" ></div>
+            <div class="col-8" style="margin:0 auto;">
+                <header>LOGIN PAGE</header>
+                <br>
+                <form class="form1"    action="employeeList" method="post" >
+                    <div style="margin:10px;">
+                    USER ID:<br> <input type="text" class="form-control"
+                        name="userId" placeholder="Enter User Id" required><br><br> 
+                    PASSWORD:<br> <input type="password" class="form-control" name="password" placeholder="Enter Password"
+                        required><br> 
+                        
+                    
+                    <input type="submit"
+                        class="btn btn-primary submit1" value="Login">
+                    <input type="reset"
+                        class="btn btn-primary submit1" value="Clear">
+                    </div>
+                    
+                                
+                
+
+ 
+
+                </form>
+<!--                 <p style="color: crimson; text-align: center; font-weight: bold; font-family: Arial, Helvetica, sans-serif;"><%= errorMessage %></p>
+ -->            </div>
+        </div>
+    </div>
+</body>
+</html>
